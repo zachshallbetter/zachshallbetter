@@ -1,14 +1,30 @@
 # Zach Shallbetter
 
-**I build the systems that make ambitious ideas work in the real world.**
+**I build systems that make meaning explicit and actionable, grounded in how people understand the world, express intent, and evaluate the consequences of action.**
 
 [Website](https://zachshallbetter.com) · [Selected work](https://zachshallbetter.com/work) · [Systems & principles](https://zachshallbetter.com/systems) · [Writing](https://zachshallbetter.com/writing)
 
 I re-enter problems until they hold.
 
-I'm interested in the layer between a model's capability and dependable action: how tools expose meaning, how agents operate them, and how a system establishes what actually happened. I've followed that thread through interaction design, software architecture, creative tooling, AI, physical products, and manufacturing for more than twenty years.
+The throughline in my work isn't a particular language or framework. It's making the underlying structure of a problem legible, giving it a usable representation, and building systems that can act on it without losing track of human intent, authority, or evidence.
 
-The projects below aren't all products at the same stage. Some are shipped tools; others are research programs, protocols, or reference implementations. I try to be explicit about that distinction. The connection between them is the interesting part.
+I've followed that problem through interaction design, software architecture, semantic reflection, creative tooling, AI, physical products, and manufacturing for more than twenty years. Some of the work is shipped software. Some is a protocol, a research program, or a reference implementation that tests whether an idea holds up in practice. The connection between them is the interesting part.
+
+## From comprehension to dependable action
+
+I think about systems as a relationship between what a person means, what the system understands, what it is allowed to do, and what everyone can verify afterward.
+
+```mermaid
+flowchart TD
+    H["Human experience<br/>and comprehension"] --> I["Intent and meaning"]
+    I --> R["Explicit representation<br/>and constraints"]
+    R --> A["Bounded, purposeful action"]
+    A --> E["Evidence and evaluation"]
+    E --> C["Human understanding<br/>and informed decisions"]
+    C -. "feedback and revision" .-> I
+```
+
+The goal is not to make people adapt to hidden system behavior. It is to make meaning and constraints explicit enough that people and machines can reason about them, act on them, and understand the consequences.
 
 ## Computer use and agent interfaces
 
@@ -62,4 +78,4 @@ My background also includes product and design leadership, teaching, entrepreneu
 - **[Distance from Gray](https://zachshallbetter.com/writing/distance-from-gray)** — The output-side argument for contracts that make probabilistic work dependable.
 - **[All writing](https://zachshallbetter.com/writing)** · [Systems & principles](https://zachshallbetter.com/systems) · [Selected work](https://zachshallbetter.com/work)
 
-The throughline isn't a particular language or framework. It's making hidden structure explicit, giving it a usable representation, and building systems that can act on it without losing track of intent, authority, or evidence.
+Human comprehension is the starting point. Explicit structure is the method. Dependable action is the outcome.
