@@ -23,7 +23,7 @@ flowchart TB
     G --> A(["Action"])
     A --> V["Validation"]
     V --> U(["Understanding"])
-    U -. "  learn · revise  " .-> M
+    U -. "&nbsp;&nbsp;learn · revise&nbsp;&nbsp;" .-> M
 ```
 
 The goal is not to make people adapt to hidden system behavior. It is to make meaning and constraints explicit enough that people and machines can reason about them, act on them, and understand the consequences.
