@@ -1,41 +1,58 @@
 # Zach Shallbetter
 
-**Product engineer working across computational interaction, agent systems, and software that operates in the real world.**
+**I build the systems that make ambitious ideas work in the real world.**
 
 [Website](https://zachshallbetter.com) · [Selected work](https://zachshallbetter.com/work) · [Systems & principles](https://zachshallbetter.com/systems)
 
-I work between foundational questions and practical implementation. I investigate how a system should behave, develop the models and protocols to express that behavior, build the software, and test where the ideas or implementation break down.
+I re-enter problems until they hold.
 
-My projects span interaction runtimes, agent tooling for creative applications, computational protocols, Rust systems work, and development workflows designed to catch failures early. I’m interested in the whole path from an idea to a system that actually works.
+My work moves between foundational questions and practical implementation: understanding what a system actually needs to do, developing a model that can express it, building the machinery, and testing the model against what happens in practice. I've done this across software, interaction design, creative tooling, AI, physical products, and manufacturing for more than twenty years.
 
-## Selected work
+The current thread is how to make increasingly capable software systems useful and dependable. That means exploring new models of interaction, giving agents meaningful ways to operate existing tools, and building the contracts, context, and verification that help the results hold up.
 
-### Interaction systems
+## The work
 
-- **[Fundamental Engine](https://github.com/zachshallbetter/fundamental-engine)** — A renderer-agnostic runtime for relationship-driven interaction. It explores interfaces as dynamic systems whose behavior emerges from relationships and shared state, rather than only from predefined components and event handlers.
-- **[Foundations of Computational Interaction](https://github.com/zachshallbetter/foundations-of-computational-interaction)** — Foundational investigation into computational interaction: its models, assumptions, and possibilities.
-- **[Polymorphic Decision Protocol](https://github.com/zachshallbetter/polymorphic-decision-protocol)** — An exploration of protocols and structures for representing computational decision-making.
+### Rethinking interaction
 
-### Agent tooling & computer use
+- **[Fundamental Engine](https://github.com/zachshallbetter/fundamental-engine)** — A renderer-agnostic runtime for relationship-driven interaction. Instead of treating an interface as a fixed arrangement of components, it models elements as participants in a shared field whose relationships shape behavior. The engine also powers parts of my [website](https://zachshallbetter.com).
+- **[Foundations of Computational Interaction](https://github.com/zachshallbetter/foundations-of-computational-interaction)** — Foundational work on what interaction is, how it can be represented, and which assumptions current systems inherit.
+- **[Polymorphic Decision Protocol](https://github.com/zachshallbetter/polymorphic-decision-protocol)** — Protocol-level exploration of how computational systems can represent and work with decisions.
 
-- **[Adobe MCP](https://github.com/zachshallbetter/adobe-mcp)** — MCP tooling that lets AI systems work with Adobe applications and their document workflows. Includes integration with [Artcraft](https://github.com/ArtCraftAI), an open-source project I contribute to.
-- **[Blender MCP in Rust](https://github.com/zachshallbetter/blender-mcp-rs)** — A Rust implementation of Blender MCP exploring semantic tooling for working with a complex creative application.
-- **[Reflect](https://github.com/zachshallbetter/reflect)** — Rust reflection work exploring how to make program structure available for inspection and use.
+### Giving agents real tools
 
-### Agent engineering & reliability
+- **[Adobe MCP](https://github.com/zachshallbetter/adobe-mcp)** — MCP tooling for working with Adobe applications and real creative-document workflows, including an integration with [Artcraft](https://github.com/ArtCraftAI), an open-source project I contribute to.
+- **[Blender MCP in Rust](https://github.com/zachshallbetter/blender-mcp-rs)** — A Rust implementation of Blender MCP with semantic tooling, exploring how an agent can work with the meaning and structure of a complex 3D scene rather than relying only on low-level actions.
+- **[MCP-Tools](https://github.com/zachshallbetter/MCP-Tools)** — Browser automation and inspection that goes beyond clicks: WebDriver BiDi, network interception, console and request monitoring, screenshots, accessibility and performance analysis.
+- **[Reflect](https://github.com/zachshallbetter/reflect)** — Rust work on reflection and making program structure available for inspection and use.
 
-- **[Formal Project Bootstrap — agent skills](https://github.com/zachshallbetter/formal-project-bootstrap/tree/main/.agents)** — Custom skills and workflows for guiding implementation, reviewing changes, auditing assumptions, and finding failure modes.
+### Making the development loop trustworthy
+
+- **[Formal Project Bootstrap — agent skills](https://github.com/zachshallbetter/formal-project-bootstrap/tree/main/.agents)** — Purpose-built agent skills and workflows for implementation, auditing, review, and failure detection.
+- **[PYDocs](https://github.com/zachshallbetter/pydocs)** — A deterministic documentation-extraction contract that normalizes Python-authored associations into a shared structure usable across language-aware tooling.
+- **[Text Diff Tool](https://github.com/zachshallbetter/text-diff-tool)** — Text comparison that looks beyond character changes toward semantic differences, explanations, and agent-friendly analysis.
+
+I think about reliability at both ends of generative work. On the input side, systems need current, structured context; on the output side, they need explicit contracts and verification. Better generation helps, but it doesn't replace the work of defining what counts as correct and gathering evidence that the result meets it. I write about this in [Living Documentation](https://zachshallbetter.com/writing/living-documentation) and [Distance from Gray](https://zachshallbetter.com/writing/distance-from-gray).
+
+## The throughline predates AI agents
+
+Some of my older public projects make the same pattern visible in different domains:
+
+- **[Image Inspector](https://github.com/zachshallbetter/Image-Inspector)** — Preflight analysis for print-and-cut workflows, extracting things like layers, spot colors, fonts, dimensions, and other production-relevant details from design files.
+- **[Forma](https://github.com/zachshallbetter/forma)** — A photogrammetry pipeline for reconstructing 3D anatomy from images for medical analysis and custom prosthetic or orthotic workflows.
+- **[Stateful Elements](https://github.com/zachshallbetter/Stateful-Elements)** — An earlier exploration of putting state closer to the DOM elements whose behavior it governs.
+
+These aren't all versions of the same technology. They're examples of the same instinct: make hidden structure legible, give it a useful representation, and build a system that can act on it.
 
 ## How I work
 
-I don't see research and implementation as separate tracks. A conceptual model should lead to something testable; a working implementation should challenge the model. I build the protocol, write the code, inspect the failures, and iterate.
+Research and implementation are a feedback loop, not separate phases. A conceptual model should lead to something testable; implementation should expose where the model is weak. I build the protocol, write the code, examine the failures, and iterate.
 
-That applies to the development process itself, too. I create agent skills for specific work rather than assuming a generic prompt will be enough, and I build review and verification into the loop. The goal isn't simply to get something generated or get a demo running. It's to understand what works, what doesn't, and what it takes to make the result dependable.
+I apply that discipline to agent-assisted development too. I create skills for the actual work, define constraints and sources of truth, audit the process, and verify results instead of treating plausible output as proof of completion.
 
-I've spent more than 20 years working across software, design, physical products, manufacturing, and entrepreneurship. That breadth informs how I approach engineering: understand the whole problem, move comfortably between abstraction and implementation, and take responsibility for whether the finished thing works.
+My background also includes product and design leadership, teaching, entrepreneurship, and physical production. I took a hardware company from a Kickstarter campaign to a roughly $500K seed round and an end-to-end just-in-time manufacturing operation. That experience shaped how I approach software: prototypes are useful, but the real test is whether the system can operate under real constraints.
 
-## More
+## Explore
 
-- **[zachshallbetter.com](https://zachshallbetter.com)** — Portfolio, projects, and writing.
-- **[Work](https://zachshallbetter.com/work)** — Selected projects and case studies.
-- **[Systems](https://zachshallbetter.com/systems)** — Working principles, conceptual models, and their limits.
+- **[Portfolio & selected work](https://zachshallbetter.com/work)** — Products, systems, and experiments.
+- **[Systems & principles](https://zachshallbetter.com/systems)** — The models behind the work, including assumptions and limits.
+- **[Writing](https://zachshallbetter.com/writing)** — Research and essays on interaction, AI systems, product engineering, and reliability.
