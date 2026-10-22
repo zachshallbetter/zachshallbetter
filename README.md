@@ -68,7 +68,7 @@ A recurring problem in agent systems is the gap between producing an artifact an
 
 ## How I work
 
-Research and implementation are a feedback loop, not separate phases. I build something testable, look closely at where it breaks, and revise both the implementation and the model behind it. My process is iterative by design: ship, test, and ship again.
+Research and implementation are a feedback loop, not separate phases. I build something testable, look closely at where it breaks, and revise both the implementation and the model behind it. The cycle is simple: ship, test, learn, repeat.
 
 I apply the same discipline to agent-assisted development. I define constraints and sources of truth, create purpose-built workflows, audit the work, and verify results rather than treating plausible output as proof of completion.
 
@@ -76,7 +76,7 @@ My background also includes product and design leadership, teaching, entrepreneu
 
 ## Companies
 
-- **Snack Studio** — Product studio work grounded in the same practice of taking ideas from structure to working systems.
+- **Snack Studio** — My independent product and engineering practice, building original and client systems end to end across applied AI, software systems, computational interaction, developer tooling, and product development.
 - **[Judgment Machines](https://judgmentmachines.com)** — Writing and research on AI, judgment, and the systems we build around consequential decisions, including my book *The Last Undo*.
 
 ## Writing and the ideas behind the work
