@@ -6,7 +6,7 @@
 
 I re-enter problems until they hold.
 
-My work moves between research, representation, implementation, and the question of how we know a system is doing what we think it is. I've followed that thread through interaction design, software architecture, creative tooling, AI, physical products, and manufacturing for more than twenty years.
+I'm interested in the layer between a model's capability and dependable action: how tools expose meaning, how agents operate them, and how a system establishes what actually happened. I've followed that thread through interaction design, software architecture, creative tooling, AI, physical products, and manufacturing for more than twenty years.
 
 The projects below aren't all products at the same stage. Some are shipped tools; others are research programs, protocols, or reference implementations. I try to be explicit about that distinction. The connection between them is the interesting part.
 
@@ -31,10 +31,11 @@ I'm interested in what changes when software exposes its meaning and structure, 
 
 A recurring problem in agent systems is the gap between producing an artifact and establishing that it is correct, authorized, or complete. These projects explore different parts of that gap.
 
+- **[Generative Relationship Protocol](https://github.com/zachshallbetter/grp)** — A reference implementation for representing human–AI work as a persistent, branchable graph rather than a disposable linear chat. Typed relationships and context capsules preserve how ideas derive from, branch from, and synthesize with one another.
 - **[Intent and Evidence Project Engine](https://github.com/zachshallbetter/intent-evidence-project-engine)** — A project-agnostic operating protocol for agent-assisted engineering: declared intent, bounded work, explicit authority, empirical evidence, independent evaluation, and evidence-qualified promotion. The implementation includes a conformance validator and tested coordinator behavior.
 - **[Formal Project Bootstrap](https://github.com/zachshallbetter/formal-project-bootstrap)** — A reusable project substrate for bounded agent autonomy. It makes sources of truth, authority, context, ready work, execution limits, evidence, recovery, and reconciliation explicit. Its governing thesis: autonomy increases as consequential ambiguity decreases.
 - **[Foundations of Computational Interaction](https://github.com/zachshallbetter/foundations-of-computational-interaction)** — An interdisciplinary research program investigating whether interaction can be represented, measured, compared, and modeled more precisely. The repository includes a versioned knowledge corpus, a deterministic C reference substrate for a limited subset, and verification tooling. Empirical advantage remains an open question, not a claimed result.
-- **[Reflect](https://github.com/zachshallbetter/reflective-rust)** — The broader reflection work is best followed through Reflective Rust and Reflective Index, where the current executable boundaries and status are documented.
+- **[Orchestration Studio](https://github.com/zachshallbetter/Orchestration-Studio)** — An evolving operator control-plane project for authoring, validating, launching, and inspecting specialist workflows across a runtime fleet. Its design keeps workflow governance and operator visibility separate from the runtimes that execute work.
 
 ## Shipped tools and production systems
 
