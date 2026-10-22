@@ -1,5 +1,7 @@
 # Zach Shallbetter
 
+### Product & Systems Engineer
+
 **I build systems that make meaning explicit and actionable, grounded in how people understand the world, express intent, and evaluate the consequences of action.**
 
 [Website](https://zachshallbetter.com) · [Selected work](https://zachshallbetter.com/work) · [Systems & principles](https://zachshallbetter.com/systems) · [Writing](https://zachshallbetter.com/writing)
@@ -8,7 +10,7 @@ I re-enter problems until they hold.
 
 The throughline in my work isn't a particular language or framework. It's making the underlying structure of a problem legible, giving it a usable representation, and building systems that can act on it without losing track of human intent, authority, or evidence.
 
-I've followed that problem through interaction design, software architecture, semantic reflection, creative tooling, AI, physical products, and manufacturing for more than twenty years. Some of the work is shipped software. Some is a protocol, a research program, or a reference implementation that tests whether an idea holds up in practice. The connection between them is the interesting part.
+I've followed that problem through interaction design, software architecture, semantic reflection, creative tooling, AI, physical products, and manufacturing for more than twenty years. The breadth comes from following the problem wherever it leads. Some of the work is shipped software. Some is a protocol, a research program, or a reference implementation that tests whether an idea holds up in practice. The connection between them is the interesting part.
 
 ## From comprehension to dependable action
 
@@ -26,9 +28,11 @@ flowchart TD
 
 The goal is not to make people adapt to hidden system behavior. It is to make meaning and constraints explicit enough that people and machines can reason about them, act on them, and understand the consequences.
 
+An agent's failure to understand a system is not always a model failure. Sometimes it is a system-design failure. Hidden state, ambiguous controls, missing context, and absent feedback can make the right action difficult to identify and the outcome difficult to verify.
+
 ## Computer use and agent interfaces
 
-- **[Adobe MCP](https://github.com/zachshallbetter/adobe-mcp)** — Published MCP servers for InDesign, Illustrator, Photoshop, and After Effects. They expose real creative-document workflows so agents can operate on documents, structure, typography, effects, and exports—not just imitate a person clicking around.
+- **[Adobe MCP](https://github.com/zachshallbetter/adobe-mcp)** — Published MCP servers for InDesign, Illustrator, Photoshop, and After Effects. They expose real creative-document workflows so agents can operate on documents, structure, typography, effects, and exports, not just imitate a person clicking around.
 - **[MCP-Tools](https://github.com/zachshallbetter/MCP-Tools)** — Browser automation and inspection built around WebDriver BiDi, with network interception, request and console monitoring, screenshots, element interaction, and Lighthouse-based analysis. Useful computer use needs observability: not only the action, but evidence of what happened and why.
 - **[Blender MCP in Rust](https://github.com/zachshallbetter/blender-mcp-rs)** — An exploration of semantic tooling and spatial interaction for agents working with Blender.
 
@@ -68,6 +72,11 @@ Research and implementation are a feedback loop, not separate phases. I build so
 I apply the same discipline to agent-assisted development. I define constraints and sources of truth, create purpose-built workflows, audit the work, and verify results rather than treating plausible output as proof of completion.
 
 My background also includes product and design leadership, teaching, entrepreneurship, and physical production. I took a hardware company from Kickstarter through a roughly $500K seed round and an end-to-end just-in-time manufacturing operation. That experience shaped how I approach software: a prototype is a start; the real test is whether the system works under real constraints.
+
+## Companies
+
+- **Snack Studio** — Product studio work grounded in the same practice of taking ideas from structure to working systems.
+- **[Judgment Machines](https://judgmentmachines.com)** — Writing and research on AI, judgment, and the systems we build around consequential decisions, including my book *The Last Undo*.
 
 ## Writing and the ideas behind the work
 
