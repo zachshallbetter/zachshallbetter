@@ -18,12 +18,12 @@ I think about systems as a relationship between what a person means, what the sy
 
 ```mermaid
 flowchart TB
-    H(["◎  Human intent"]) --> M["◇  Meaning + context"]
-    M --> G["▣  Constraints + authority"]
-    G --> A(["↗  Action"])
-    A --> V["✓  Evidence + verification"]
-    V --> U(["◎  Human judgment"])
-    U -. "learn · revise" .-> M
+    H(["Human intent"]) --> M["Meaning + context"]
+    M --> G["Constraints + authority"]
+    G --> A(["Action"])
+    A --> V["Evidence + verification"]
+    V --> U(["Human judgment"])
+    U -. "  learn · revise  " .-> M
 ```
 
 The goal is not to make people adapt to hidden system behavior. It is to make meaning and constraints explicit enough that people and machines can reason about them, act on them, and understand the consequences.
