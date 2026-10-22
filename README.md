@@ -18,11 +18,11 @@ I think about systems as a relationship between what a person means, what the sy
 
 ```mermaid
 flowchart TB
-    H(["Human intent"]) --> M["Meaning + context"]
-    M --> G["Constraints + authority"]
+    H(["Human"]) --> M["Semantics"]
+    M --> G["Governance"]
     G --> A(["Action"])
-    A --> V["Evidence + verification"]
-    V --> U(["Human judgment"])
+    A --> V["Validation"]
+    V --> U(["Understanding"])
     U -. "  learn · revise  " .-> M
 ```
 
