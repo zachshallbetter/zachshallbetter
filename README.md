@@ -17,20 +17,13 @@ I've followed that problem through interaction design, software architecture, se
 I think about systems as a relationship between what a person means, what the system understands, what it is allowed to do, and what everyone can verify afterward.
 
 ```mermaid
-flowchart TD
+flowchart TB
     H(["◎  Human intent"]) --> M["◇  Meaning + context"]
     M --> G["▣  Constraints + authority"]
     G --> A(["↗  Action"])
     A --> V["✓  Evidence + verification"]
     V --> U(["◎  Human judgment"])
     U -. "learn · revise" .-> M
-
-    classDef human fill:var(--color-canvas-default),stroke:var(--color-fg-default),color:var(--color-fg-default),stroke-width:1.5px;
-    classDef structure fill:var(--color-canvas-subtle),stroke:var(--color-border-default),color:var(--color-fg-default),stroke-width:1px;
-    classDef action fill:var(--color-accent-subtle),stroke:var(--color-accent-fg),color:var(--color-fg-default),stroke-width:1.5px;
-    class H,U human;
-    class M,G,V structure;
-    class A action;
 ```
 
 The goal is not to make people adapt to hidden system behavior. It is to make meaning and constraints explicit enough that people and machines can reason about them, act on them, and understand the consequences.
