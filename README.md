@@ -6,8 +6,6 @@
 
 [Website](https://zachshallbetter.com) · [Selected work](https://zachshallbetter.com/work) · [Systems & principles](https://zachshallbetter.com/systems) · [Writing](https://zachshallbetter.com/writing)
 
-I re-enter problems until they hold.
-
 The throughline in my work isn't a particular language or framework. It's making the underlying structure of a problem legible, giving it a usable representation, and building systems that can act on it without losing track of human intent, authority, or evidence.
 
 I've followed that problem through interaction design, software architecture, semantic reflection, creative tooling, AI, physical products, and manufacturing for more than twenty years. The breadth comes from following the problem wherever it leads. Some of the work is shipped software. Some is a protocol, a research program, or a reference implementation that tests whether an idea holds up in practice. The connection between them is the interesting part.
